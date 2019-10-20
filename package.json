@@ -7,7 +7,10 @@
   "author": "Shiono Yoshihide <shiono.yoshihide@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node --project tsconfig.server.json server/main.ts"
+    "dev": "ts-node --project tsconfig.server.json server/main.ts",
+    "prebuild": "rimraf dist",
+    "build": "tsc --project tsconfig.server.json",
+    "start": "cross-env NODE_ENV=production node dist/main.js"
   },
   "dependencies": {
     "@nestjs/common": "^6.8.3",
@@ -18,6 +21,8 @@
   },
   "devDependencies": {
     "@types/node": "^12.11.1",
+    "cross-env": "^6.0.3",
+    "rimraf": "^3.0.0",
     "ts-node": "^8.4.1",
     "typescript": "^3.6.4"
   }
