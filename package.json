@@ -5,5 +5,20 @@
   "main": "dist/server.js",
   "repository": "git@github.com:saltyshiomix/react-ssr-nestjs-starter.git",
   "author": "Shiono Yoshihide <shiono.yoshihide@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node --project tsconfig.server.json server/main.ts"
+  },
+  "dependencies": {
+    "@nestjs/common": "^6.8.3",
+    "@nestjs/core": "^6.8.3",
+    "@nestjs/platform-express": "^6.8.3",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^12.11.1",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
+  }
 }
