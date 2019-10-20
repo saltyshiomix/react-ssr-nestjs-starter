@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "name": "react-ssr-nestjs-starter",
+  "version": "1.0.0",
+  "main": "dist/server.js",
+  "repository": "git@github.com:saltyshiomix/react-ssr-nestjs-starter.git",
+  "author": "Shiono Yoshihide <shiono.yoshihide@gmail.com>",
+  "license": "MIT"
+}
