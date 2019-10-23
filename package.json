@@ -7,7 +7,7 @@
   "author": "Shiono Yoshihide <shiono.yoshihide@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node --project tsconfig.server.json server/main.ts",
+    "dev": "nodemon server/main.ts",
     "prebuild": "rimraf dist",
     "build": "tsc --project tsconfig.server.json",
     "start": "cross-env NODE_ENV=production node dist/main.js"
@@ -27,6 +27,7 @@
     "@types/react": "^16.9.9",
     "@types/react-dom": "^16.9.2",
     "cross-env": "^6.0.3",
+    "nodemon": "^1.19.4",
     "rimraf": "^3.0.0",
     "ts-node": "^8.4.1",
     "typescript": "^3.6.4"
