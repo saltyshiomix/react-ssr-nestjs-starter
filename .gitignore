@@ -2,5 +2,5 @@ node_modules
 package-lock.json
 yarn.lock
 dist
-.cache
+.ssr
 .DS_Store
