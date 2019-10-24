@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon server/main.ts",
-    "prebuild": "rimraf dist",
+    "prebuild": "rimraf .cache dist",
     "build": "tsc --project tsconfig.server.json",
     "start": "cross-env NODE_ENV=production node dist/main.js"
   },
