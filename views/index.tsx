@@ -11,7 +11,7 @@ const Index = (props: IndexProps) => {
   return (
     <Layout script={props.script}>
       <Head>
-        react-ssr-nestjs-starter
+        An example of @react-ssr/nestjs-express
       </Head>
       <p>{props.message}</p>
     </Layout>

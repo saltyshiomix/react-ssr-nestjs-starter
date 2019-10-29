@@ -10,7 +10,7 @@ export class AppController {
   @Render('index')
   public showHome() {
     return {
-      message: 'Hello World',
+      message: 'Hello NestJS',
     };
   }
 }
