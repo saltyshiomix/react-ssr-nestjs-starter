@@ -1,4 +1,6 @@
 import React from 'react';
+import Head from '@react-ssr/nestjs-express/head';
+import { Layout } from '../components/Layout';
 
 interface IndexProps {
   message: string;
@@ -7,9 +9,12 @@ interface IndexProps {
 
 const Index = (props: IndexProps) => {
   return (
-    <React.Fragment>
+    <Layout script={props.script}>
+      <Head>
+        react-ssr-nestjs-starter
+      </Head>
       <p>{props.message}</p>
-    </React.Fragment>
+    </Layout>
   );
 };
 
