@@ -4,12 +4,11 @@ import { Layout } from '../components/Layout';
 
 interface IndexProps {
   message: string;
-  script: string; // injected by react-ssr automatically
 }
 
 const Index = (props: IndexProps) => {
   return (
-    <Layout script={props.script}>
+    <Layout>
       <Head>
         An example of @react-ssr/nestjs-express
       </Head>
