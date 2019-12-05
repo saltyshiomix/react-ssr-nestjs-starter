@@ -30,6 +30,6 @@
     "nodemon": "^2.0.1",
     "rimraf": "^3.0.0",
     "ts-node": "^8.5.2",
-    "typescript": "^3.7.2"
+    "typescript": "^3.7.3"
   }
 }
