@@ -10,7 +10,7 @@
     "dev": "nodemon server/main.ts",
     "prebuild": "rimraf dist",
     "build": "tsc --project tsconfig.server.json",
-    "start": "cross-env NODE_ENV=production node dist/main.js"
+    "start": "cross-env NODE_ENV=production node --max-http-header-size 512000 dist/main.js"
   },
   "dependencies": {
     "@nestjs/common": "^6.10.7",
