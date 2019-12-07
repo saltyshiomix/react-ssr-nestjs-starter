@@ -16,7 +16,7 @@
     "@nestjs/common": "^6.10.7",
     "@nestjs/core": "^6.10.7",
     "@nestjs/platform-express": "^6.10.7",
-    "@react-ssr/nestjs-express": "^0.13.0",
+    "@react-ssr/nestjs-express": "^0.14.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "reflect-metadata": "^0.1.13",
