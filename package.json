@@ -8,9 +8,9 @@
     "start": "cross-env NODE_ENV=production node dist/main.js"
   },
   "dependencies": {
-    "@nestjs/common": "^6.10.7",
-    "@nestjs/core": "^6.10.7",
-    "@nestjs/platform-express": "^6.10.7",
+    "@nestjs/common": "^6.10.11",
+    "@nestjs/core": "^6.10.11",
+    "@nestjs/platform-express": "^6.10.11",
     "@react-ssr/core": "^0.18.1",
     "@react-ssr/nestjs-express": "^0.18.0",
     "react": "^16.12.0",
