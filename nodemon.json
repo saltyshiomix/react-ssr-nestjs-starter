@@ -3,6 +3,6 @@
     "server"
   ],
   "execMap": {
-    "ts": "cross-env TS_NODE_PROJECT=tsconfig.server.json node --max-http-header-size 512000 -r ts-node/register"
+    "ts": "ts-node --project tsconfig.server.json"
   }
 }
