@@ -19,9 +19,9 @@
     "rxjs": "^6.5.4"
   },
   "devDependencies": {
-    "@types/node": "^12.11.6",
-    "@types/react": "^16.9.11",
-    "@types/react-dom": "^16.9.4",
+    "@types/node": "^13.7.7",
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.5",
     "cross-env": "^6.0.3",
     "nodemon": "^2.0.1",
     "rimraf": "^3.0.0",
