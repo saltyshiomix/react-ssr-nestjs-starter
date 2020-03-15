@@ -12,6 +12,7 @@
     "@nestjs/platform-express": "^7.0.2",
     "@react-ssr/core": "^0.21.7",
     "@react-ssr/nestjs-express": "^0.21.7",
+    "hbs": "^4.1.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "reflect-metadata": "^0.1.13",

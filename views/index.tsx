@@ -12,6 +12,7 @@ const Index = (props: IndexProps) => {
         <title>An example of @react-ssr/nestjs-express</title>
       </Head>
       <p>{props.message}</p>
+      <a href="/about">Go to the about page</a>
     </React.Fragment>
   );
 };

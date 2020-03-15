@@ -7,10 +7,18 @@ import {
 @Controller()
 export class AppController {
   @Get()
-  @Render('index')
-  public showHome() {
+  @Render('index.tsx')
+  public showHomePage() {
     return {
       message: 'Hello NestJS',
+    };
+  }
+
+  @Get('about')
+  @Render('about.hbs')
+  public showAboutPage() {
+    return {
+      message: 'About Page',
     };
   }
 }
