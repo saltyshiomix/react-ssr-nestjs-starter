@@ -2,7 +2,7 @@
   "private": true,
   "name": "react-ssr-nestjs-starter",
   "scripts": {
-    "dev": "nodemon server/main.ts",
+    "dev": "tsnd --project tsconfig.server.json server/main.ts",
     "build": "rimraf dist && tsc -p tsconfig.server.json",
     "start": "cross-env NODE_ENV=production node dist/main.js"
   },
@@ -23,9 +23,8 @@
     "@types/react": "^16.9.23",
     "@types/react-dom": "^16.9.5",
     "cross-env": "^7.0.0",
-    "nodemon": "^2.0.2",
     "rimraf": "^3.0.2",
-    "ts-node": "^8.6.2",
+    "ts-node-dev": "^1.0.0-pre.44",
     "typescript": "^3.8.3"
   }
 }
