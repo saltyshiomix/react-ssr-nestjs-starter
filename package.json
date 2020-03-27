@@ -13,8 +13,8 @@
     "@react-ssr/core": "^0.21.15",
     "@react-ssr/nestjs-express": "^0.21.15",
     "hbs": "^4.1.0",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^6.5.4"
   },
